@@ -1,0 +1,140 @@
+body{
+    margin:0;
+}
+.sections{
+    display:flex;
+    flex-direction: row;
+    width:100%;
+}
+.section-1{
+    display:flex;
+    flex-direction: column;
+    height:100vh;
+    width:5%;
+    align-items: center;
+}
+
+i{
+    font-size:35px;
+    color:rgb(232, 182, 182);
+}
+
+.sections .section-1 a{
+    text-decoration: none;
+}
+.top{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+.bottom{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    margin-top: auto;
+}
+
+.section-2{
+    width:30%;
+    display:flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+.sections .section-2 .searchBar i{
+    font-size:20px;
+}
+
+.searchBar{
+    display:flex;
+    flex-direction: row;
+    justify-content: center;
+    gap:10px;
+    padding-left: 10px;
+}
+
+.separator{
+    border-bottom: 2px solid #ffd6df;
+    width:100%;
+    margin: 5px 0;
+}
+
+.sep2{
+    width:2px;
+    height:100vh;
+    background-color:#ffd6df; 
+}
+.directMessages{
+    display:flex;
+    flex-direction: row;
+    gap:220px;
+    padding-left:10px;
+}
+.section-2 .directMessages i{
+    font-size:20px;
+}
+
+.section-3{
+    width:40%;
+    display:flex;
+    flex-direction: column;
+}
+
+.userHeader{
+    padding-top:10px;
+    display:flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    width:100%;
+}
+
+.rr ,.lr{
+    display:flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.rr{
+    gap:30px;
+    padding-right:10px;
+}
+
+.lr{
+    gap:10px;
+    padding-left:10px;
+}
+
+.section-4{
+    display: flex;
+    flex-direction: column;
+    width:25%;
+    height:100vh;
+}
+
+.fone{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    height:35%;
+    padding-right: 10px;
+}
+
+.ftwo{
+    display: flex;
+    flex-direction: column;
+    height:55%;
+    padding-left: 10px;
+}
+
+.fthree{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    height:10%;
+}
+
+.section-2 .headerName p{
+    padding-left:10px;
+}
